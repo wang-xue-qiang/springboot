@@ -9,7 +9,7 @@ public class Demo {
 	private String	name;
 	private Date	createTime;  
 	private String  reMakers;
-	
+	private String  email;
 	@JSONField(serialize=false)
 	public String getReMakers() {
 		return reMakers;
@@ -35,6 +35,12 @@ public class Demo {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 }
